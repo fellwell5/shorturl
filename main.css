@@ -1,0 +1,29 @@
+.create {background-color: #4860FF; border-bottom: 3px solid #fff;}
+
+.create .container {background-color: #4860FF; }
+.create .container h2{font-family: font-family: 'Montserrat', serif; font-size:50px; font-weight: bold; color: #3BBCFF;}
+.create .container p{font-family: font-family: 'Montserrat', serif; font-size: 26px; color: #3BBCFF;}
+.create .container label{font-family: font-family: 'Montserrat', serif; font-size: 18px; color: #3BBCFF;}
+.create .container a{font-family: font-family: 'Montserrat', serif; font-size: 22px; color: #3BBCFF;}
+.create .container span{font-family: font-family: 'Montserrat', serif; font-size: 32px; font-weight: bold; color: #3BBCFF; }
+
+.nav {background-color: #95A3FF; border-bottom: 3px solid #fff;}
+.nav a {
+  color: #fff;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.info {background-color: #24307F;}
+.info .container {background-color: #24307F; }
+.info .container h2{font-family: font-family: 'Montserrat', serif; font-size:50px; font-weight: bold; color: #3BBCFF;}
+.info .container h6{font-family: font-family: 'Montserrat', serif; font-size: 15px; color: #3BBCFF;}
+.info .container p{font-family: font-family: 'Montserrat', serif; font-size: 26px; color: #3BBCFF;}
+.info .container a{font-family: font-family: 'Montserrat', serif; font-size:50px; font-weight: bold; color: #3BBCFF;}
+.info .container span{font-family: font-family: 'Montserrat', serif; font-size: 32px; font-weight: bold; color: #3BBCFF; }
