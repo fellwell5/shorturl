@@ -22,7 +22,7 @@ echo '{"code": "'.$code.'", "ip": "'.$ip.'", "createts": "'.$timestamp.'"}';
 <html>
 <head>
 <title>ShortURL</title>
-<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css" rel="stylesheet">
+<link href="bootstrap.css" rel="stylesheet">
 <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 <link href='info.css' rel='stylesheet'>
 </head>

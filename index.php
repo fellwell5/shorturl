@@ -8,7 +8,7 @@ if($mail == ""){
 <html>
 <head>
 <title>ShortURL</title>
-<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css" rel="stylesheet">
+<link href="bootstrap.css" rel="stylesheet">
 <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 <link href='main.css' rel='stylesheet'>
 </head>
@@ -18,9 +18,9 @@ if($mail == ""){
 <tr>
 <td align="center" valign="middle">
 <div class="container">
-<!-- Dieser Text läuft mittig -->
+<!-- Dieser Text lÃ¤uft mittig -->
 <a name="create"></a>
-<h2>ShortURL</h2>
+<h2>ShortUR</h2>
 <p>Create a ShortURL for <span>free</span>!</p>
 <form method="POST">
 <input class="itext" type="text" name="url" value="URL" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'URL';}"/>
@@ -121,7 +121,7 @@ echo '<a href="https://twitter.com/share" class="twitter-share-button"  data-tex
 <tr>
 <td align="center" valign="middle">
 <div class="container">
-<!-- Dieser Text läuft mittig -->
+<!-- Dieser Text lï¿½uft mittig -->
 <a name="info"></a>
 <h2>INFO</h2>
 <p>Get Information about a <span>ShortURL</span></p>
