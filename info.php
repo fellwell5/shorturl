@@ -64,7 +64,7 @@ echo '{"code": "'.$code.'", "ip": "'.$ip.'", "createts": "'.$timestamp.'"}';
 </tr>
 <tr>
 <td>DATE - TIME:</td>
-<td><?php echo $url; ?></td>
+<td><?php echo date('G:i:s l, d.M.Y', $timestamp); ?></td>
 </tr>
 </table>
 </div>
