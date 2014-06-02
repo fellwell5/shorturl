@@ -20,7 +20,7 @@ if($mail == ""){
 <div class="container">
 <!-- Dieser Text läuft mittig -->
 <a name="create"></a>
-<h2>ShortUR</h2>
+<h2>ShortURL</h2>
 <p>Create a ShortURL for <span>free</span>!</p>
 <form method="POST">
 <input class="itext" type="text" name="url" value="URL" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'URL';}"/>
