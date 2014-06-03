@@ -4,7 +4,7 @@ ShortURL is a HTML and PHP based Project.
 Many people don't have a MySQL Database, so I decided to create a ShortURL-Project without MySQL.
 
 INSTALLING:
-Copy index.php, info.css, info.php, mail.php, main.css and w.php to your ShortURL-Folder.
+Copy the Files listed below to your ShortURL-Folder.
 Enter your Admin-Mail into mail.php and navigate your Web-Browser to the Folder.
 IT'S DONE!
 
@@ -21,10 +21,17 @@ Viele Menschen (mich eingeschlossen) haben auf ihrem Free-Webhost kein MySQL und
 So habe ich mich entschieden diesen Dienst zu erstellen.
 
 INSTALLIEREN:
-Kopiere index.php, info.css, info.php, mail.php, main.css and w.php in deinen ShortURL-Ordner
+Kopiere die unten aufgelisteten Dateien in deinen ShortURL-Ordner
 Gib deine Admin-Mail in mail.php zwischen "" ein und navigiere mit deinem Web-Browser zu dem Ordner.
 FERTIG!
 
 Optional:
 Um das Follow @fellwell5 zu entfernen, suche nach Follow @fellwell5 in info.php und index.php und lösche das <ul>.
 ACHTUNG: LÖSCHE NUR EIN <ul>!
+
+FILES/DATEIEN
+-----------------------------------------
+PPH: index.php, info.php, mail.php, w.php
+CSS: bootstrap.css, info.css, main.css
+
+7 Files needed. / 7 Dateien benötigt.
