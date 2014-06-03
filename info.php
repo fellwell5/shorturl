@@ -16,7 +16,11 @@ if(include $datei){
 $timestamp = filemtime($datei);
 
 if($art == "json"){
-echo '{"code": "'.$code.'", "ip": "'.$ip.'", "createts": "'.$timestamp.'"}';
+    ?>
+    <html><title><?php echo '{"code": "'.$code.'", "url": "'.$url.'", "ip": "'.$ip.'", "createts": "'.$timestamp.'"}'; ?></title><body>
+    <?php echo '{"code": "'.$code.'", "url": "'.$url.'", "ip": "'.$ip.'", "createts": "'.$timestamp.'"}'; ?>
+    </body></html>
+<?php
 }else{
     ?>
 <html>
