@@ -16,9 +16,14 @@ if(include $datei){
 $timestamp = filemtime($datei);
 
 if($art == "json"){
+    $array = array();
+    $array["code"] = $code;
+    $array["url"] = $url;
+    $array["ip"] = $ip;
+    $array["createts"] = $timestamp;
     ?>
-    <html><title><?php echo '{"code": "'.$code.'", "url": "'.$url.'", "ip": "'.$ip.'", "createts": "'.$timestamp.'"}'; ?></title><body>
-    <?php echo '{"code": "'.$code.'", "url": "'.$url.'", "ip": "'.$ip.'", "createts": "'.$timestamp.'"}'; ?>
+    <html><title><?php echo json_encode($array); ?></title><body>
+    <?php echo json_encode($array); ?>
     </body></html>
 <?php
 }else{
